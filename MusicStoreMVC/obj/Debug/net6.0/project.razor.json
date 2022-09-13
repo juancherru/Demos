@@ -16308,8 +16308,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/home/juan/Demos/MusicStoreMVC/Views/Album/Edit.cshtml",
+      "TargetPath": "Views\\Album\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/juan/Demos/MusicStoreMVC/Views/Demo/Index.cshtml",
       "TargetPath": "Views\\Demo\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/juan/Demos/MusicStoreMVC/Views/Album/Index.cshtml",
+      "TargetPath": "Views\\Album\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -16328,6 +16338,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/home/juan/Demos/MusicStoreMVC/Views/Album/Details.cshtml",
+      "TargetPath": "Views\\Album\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/juan/Demos/MusicStoreMVC/Views/Productos/Create.cshtml",
       "TargetPath": "Views\\Productos\\Create.cshtml",
       "FileKind": "mvc"
@@ -16343,6 +16358,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/home/juan/Demos/MusicStoreMVC/Views/Album/Delete.cshtml",
+      "TargetPath": "Views\\Album\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/juan/Demos/MusicStoreMVC/Views/Home/Privacy.cshtml",
       "TargetPath": "Views\\Home\\Privacy.cshtml",
       "FileKind": "mvc"
@@ -16355,6 +16375,11 @@
     {
       "FilePath": "/home/juan/Demos/MusicStoreMVC/Views/Shared/_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/juan/Demos/MusicStoreMVC/Views/Album/Create.cshtml",
+      "TargetPath": "Views\\Album\\Create.cshtml",
       "FileKind": "mvc"
     },
     {

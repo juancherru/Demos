@@ -15,6 +15,26 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /home/juan/Demos/MusicStoreMVC
 build_property._RazorSourceGeneratorDebug = 
 
+[/home/juan/Demos/MusicStoreMVC/Views/Album/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWxidW0vQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/juan/Demos/MusicStoreMVC/Views/Album/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWxidW0vRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/juan/Demos/MusicStoreMVC/Views/Album/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWxidW0vRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/juan/Demos/MusicStoreMVC/Views/Album/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWxidW0vRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/juan/Demos/MusicStoreMVC/Views/Album/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWxidW0vSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/home/juan/Demos/MusicStoreMVC/Views/Demo/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGVtby9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

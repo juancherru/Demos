@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using MusicStoreMVC.Data;
 
@@ -10,9 +11,10 @@ using MusicStoreMVC.Data;
 namespace MusicStoreMVC.Migrations
 {
     [DbContext(typeof(MusicStoreMVCContext))]
-    partial class MusicStoreMVCContextModelSnapshot : ModelSnapshot
+    [Migration("20220913192341_Album")]
+    partial class Album
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "6.0.8");
