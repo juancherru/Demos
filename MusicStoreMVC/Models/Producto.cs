@@ -1,11 +1,14 @@
+﻿using System;
+using System.Collections.Generic;
+
 namespace MusicStoreMVC.Models
 {
-    public class Producto
+    public partial class Producto
     {
-        public int Id {get;set;}
-        public string? Nombre {get;set;}
-        public string? Descripcion {get;set;}
-        public decimal Precio{get;set;}
-        public bool Activo{get;set;}
+        public long Id { get; set; }
+        public string? Nombre { get; set; }
+        public string? Descripcion { get; set; }
+        public string Precio { get; set; } = null!;
+        public long Activo { get; set; }
     }
 }
