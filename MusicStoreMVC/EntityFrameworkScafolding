@@ -2,3 +2,6 @@ dotnet aspnet-codegenerator controller -name AlbumController -m Album -dc MusicS
 
 dotnet ef dbcontext scaffold Name=MusicStoreMVCContext Microsoft.EntityFrameworkCore.Sqlite --output-dir Models --context-dir Data --namespace MusicStoreMVC.Models --context-namespace MusicStoreMVC.Data --context MusicStoreMVCContext -f --no-onconfiguring
 
+dotnet ef migrations add Album
+
+dotnet ef database update
