@@ -455,3 +455,10 @@ $RECYCLE.BIN/
 !.vscode/launch.json
 !.vscode/extensions.json
 MusicStoreMVC/obj/staticwebassets.pack.sentinel
+MusicStoreMVC/bin/Debug/net6.0/MusicStoreMVC.dll
+MusicStoreMVC/bin/Debug/net6.0/MusicStoreMVC.pdb
+MusicStoreMVC/bin/Debug/net6.0/ref/MusicStoreMVC.dll
+MusicStoreMVC/obj/staticwebassets.pack.sentinel
+MusicStoreMVC/obj/Debug/net6.0/MusicStoreMVC.dll
+MusicStoreMVC/obj/Debug/net6.0/MusicStoreMVC.pdb
+MusicStoreMVC/obj/Debug/net6.0/ref/MusicStoreMVC.dll
