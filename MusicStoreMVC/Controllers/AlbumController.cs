@@ -48,7 +48,7 @@ namespace MusicStoreMVC.Controllers
         // GET: Album/Create
         public IActionResult Create()
         {
-            ViewData["ArtistId"] = new SelectList(_context.Artists, "ArtistId", "ArtistId");
+            ViewData["ArtistId"] = new SelectList(_context.Artists, "ArtistId", "Name");
             return View();
         }
 
@@ -59,13 +59,14 @@ namespace MusicStoreMVC.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("AlbumId,Title,ArtistId")] Album album)
         {
+            ModelState.Remove("Artist");
             if (ModelState.IsValid)
             {
                 _context.Add(album);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["ArtistId"] = new SelectList(_context.Artists, "ArtistId", "ArtistId", album.ArtistId);
+            ViewData["ArtistId"] = new SelectList(_context.Artists, "ArtistId", "Name", album.ArtistId);
             return View(album);
         }
 
@@ -82,7 +83,7 @@ namespace MusicStoreMVC.Controllers
             {
                 return NotFound();
             }
-            ViewData["ArtistId"] = new SelectList(_context.Artists, "ArtistId", "ArtistId", album.ArtistId);
+            ViewData["ArtistId"] = new SelectList(_context.Artists, "ArtistId", "Name", album.ArtistId);
             return View(album);
         }
 
@@ -98,6 +99,7 @@ namespace MusicStoreMVC.Controllers
                 return NotFound();
             }
 
+            ModelState.Remove("Artist");
             if (ModelState.IsValid)
             {
                 try
@@ -118,7 +120,7 @@ namespace MusicStoreMVC.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["ArtistId"] = new SelectList(_context.Artists, "ArtistId", "ArtistId", album.ArtistId);
+            ViewData["ArtistId"] = new SelectList(_context.Artists, "ArtistId", "Name", album.ArtistId);
             return View(album);
         }
 

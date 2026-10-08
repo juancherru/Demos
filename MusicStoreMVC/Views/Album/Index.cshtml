@@ -28,7 +28,7 @@
                 @Html.DisplayFor(modelItem => item.Title)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Artist.ArtistId)
+                @Html.DisplayFor(modelItem => item.Artist!.Name)
             </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.AlbumId">Edit</a> |

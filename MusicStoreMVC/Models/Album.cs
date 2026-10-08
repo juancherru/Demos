@@ -1,5 +1,7 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
 
 namespace MusicStoreMVC.Models
 {
@@ -12,9 +14,13 @@ namespace MusicStoreMVC.Models
 
         public long AlbumId { get; set; }
         public string Title { get; set; } = null!;
+
+        [Display(Name = "Artist")]
         public long ArtistId { get; set; }
 
-        public virtual Artist Artist { get; set; } = null!;
+        [ValidateNever]
+        public virtual Artist? Artist { get; set; }
+        [ValidateNever]
         public virtual ICollection<Track> Tracks { get; set; }
     }
 }
